@@ -1,8 +1,20 @@
+* { 
+	margin: 0;
+	box-sizing: border-box; 
+}
+
 #slogan {
 	font-weight: bold;
 	font-size: 25px;
-	color: rgb(101,196,0);
+	color: white;
 	font-style: italic;
+}
+
+#waiting {
+	font-weight: bold;
+	font-size: 65px;
+	color: white;
+	display: flex;
 }
 
 body {
@@ -38,4 +50,15 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.hero {
+	background-image: url('../images/mexican_food_cover.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 600px;
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
 }
