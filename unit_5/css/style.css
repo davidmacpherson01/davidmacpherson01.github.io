@@ -68,9 +68,9 @@ h3 {
 }
 
 body {
-  color: rgb(58,58,58);
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
+	color: rgb(58,58,58);
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 }
 
 p {  
@@ -127,3 +127,12 @@ ul {
 	line-height: 1.5em;
 }
 
+.wrapper { max-width: 1600px;
+	margin: auto;
+
+}
+
+.bottomlogo {
+    display: block;
+    margin: auto;
+}
