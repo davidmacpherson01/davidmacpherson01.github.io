@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab');
+
+* { 
+	margin: 0;
+	box-sizing: border-box; 
+}
+
+h1 {
+	font-size: 55px;
+	font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: 600;
+	font-family: 'Roboto Slab', serif;
+	line-height: 1.5em;
+	color: rgb(255,153,0);
+	font-variant-caps: all-petite-caps;
+	margin: 40px 0 0 0
+	padding-top: 20px;
+}
+
+h3 {
+	font-style: bold;
+	line-height: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+	padding: 20px;
+}
+
+body {
+	color: rgb(58,58,58);
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+li {
+	color: rgb(58,58,58);
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5em;
+}
+
+p {  
+	line-height: 1.5em;
+	margin: 1.7em;}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: rgb(255,153,0);
+	padding:20px;
+}
+
+
+.hero {
+	background-image: url('../images/mexican_food_cover.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 800px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.hero div {
+	position: relative;
+	top: 45%;
+}
+
+#waiting {
+	font-weight: bold;
+	font-size: 65px;
+	color: white;
+}
+
+#slogan {
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 20px;
+}
+
+#button {
+ margin:auto;
+ margin-top: 30px;
+  display:block;
+  -webkit-border-radius: 16;
+  -moz-border-radius: 16;
+  border-radius: 16px;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  background: #FF9900;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 200px;
+}
+
+#button:hover {
+  background: #ffffff;
+  text-decoration: none;
+  color: #FF9900;
+}
+
+
+.navbar {
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 1.5em;
+	color: rgb(255,153,0);
+	float: right;
+	padding: 20px;
+	margin: 10px;
+}
+
+.recipes {
+	font-style: bold;
+	color: rgb(255,153,0)
+}
+
+.story {
+	float: left;
+	width: 33.3%;
+	height: 100%;
+	padding: 30px;
+	margin:0px;
+	text-align: left;
+}
+
+.story_2column {
+	float: left;
+	width: 66.6%;
+	height: 100%;
+	padding: 30px;
+	margin:0px;
+	text-align: left;
+}
+.wrapper { max-width: 1380px;
+	margin: auto;
+}
+
+.bottomlogo {
+    display: block;
+    margin: auto;
+    margin:20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.three {
+	float: left;
+}
+
+#logo_top {
+	float:left;
+	margin: 10px;
+}
+
+.contact_details {
+	text-align: center;
+	float: none;
+}
+
+a:hover {
+	background-color: rgb(255,153,0);
+	color: white;
+}
+
+.background {
+	background-color: rgb(250,250,250);
+	margin: 20px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
