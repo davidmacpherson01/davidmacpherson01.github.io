@@ -6,26 +6,26 @@
 }
 
 h1 {
-	font-size: 55px;
+	font-size: 3em;
 	font-family: 'Roboto Slab', serif;
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 2.2em;
 	font-weight: 600;
 	font-family: 'Roboto Slab', serif;
 	line-height: 1.5em;
 	color: rgb(255,153,0);
 	font-variant-caps: all-petite-caps;
-	margin: 40px 0 0 0
-	padding-top: 20px;
+	margin: 2.5em 0 0 0
+	padding-top: 1.6em;
 }
 
 h3 {
 	font-style: bold;
 	line-height: 1.5em;
 	font-family: 'Open Sans', sans-serif;
-	padding: 20px;
+	padding: 1.6em;
 }
 
 body {
@@ -34,12 +34,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-li {
-	color: rgb(58,58,58);
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1.5em;
-}
 
 p {  
 	line-height: 1.5em;
@@ -47,11 +41,16 @@ p {
 
 a {
 	text-decoration: none;
-	font-size: 18px;
+	font-size: .9em;
 	line-height: 1.5em;
 	color: rgb(255,153,0);
-	padding:20px;
+	padding:1em;
 }
+
+li {
+	line-height: 1.5em;
+}
+
 
 
 .hero {
@@ -61,7 +60,7 @@ a {
 	background-position: center center;
 	height: 800px;
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 2em;
 }
 
 .hero div {
@@ -71,16 +70,16 @@ a {
 
 #waiting {
 	font-weight: bold;
-	font-size: 65px;
+	font-size: 4.3em;
 	color: white;
 }
 
 #slogan {
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 1.5em;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
-	padding-top: 20px;
+	padding-top: 1.1em;
 }
 
 #button {
@@ -106,14 +105,19 @@ a {
 }
 
 
-.navbar {
+#nav-bar {
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 1.2em;
 	line-height: 1.5em;
 	color: rgb(255,153,0);
 	float: right;
-	padding: 20px;
-	margin: 10px;
+	padding: 1em;
+	margin: .8em;
+}
+
+.nav-item {
+	float:right;
+	line-height: 2em;
 }
 
 .recipes {
@@ -125,8 +129,17 @@ a {
 	float: left;
 	width: 33.3%;
 	height: 100%;
-	padding: 30px;
-	margin:0px;
+	padding: 1em;
+	margin:0em;
+	text-align: left;
+}
+
+.story_2 {
+	float: left;
+	width: 33.3%;
+	height: 100%;
+	padding: 1em;
+	margin:0em;
 	text-align: left;
 }
 
@@ -134,18 +147,23 @@ a {
 	float: left;
 	width: 66.6%;
 	height: 100%;
-	padding: 30px;
-	margin:0px;
+	padding: 1.5em;
+	margin:0em;
 	text-align: left;
 }
-.wrapper { max-width: 1380px;
+
+#body {
+	width: 100%;
+}
+
+.wrapper { max-width: 60%;
 	margin: auto;
 }
 
 .bottomlogo {
     display: block;
     margin: auto;
-    margin:20px;
+    margin:1.2em;
 }
 
 .clearfix:after {
@@ -163,7 +181,11 @@ a {
 
 #logo_top {
 	float:left;
-	margin: 10px;
+	margin: .8em;
+}
+
+#images {
+	width:30%;height:30%;
 }
 
 .contact_details {
@@ -178,10 +200,117 @@ a:hover {
 
 .background {
 	background-color: rgb(250,250,250);
-	margin: 20px;
-	padding-top: 30px;
-	margin-bottom: 30px;
+	margin: 1.3em;
+	padding-top: 2.4em;
+	margin-bottom: 2.4em;
 }
 
+.footerwords {
+	color: rgb(58,58,58);
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2.5em;
+}
 
+@media only screen and (max-width: 1320px)
+{
+#story3 {display: none;}
+.story_2 {display: none}
+.story {width: 50%;}
+.story_2column {width: 100%;}
+#logo_top {float:none;}
+#nav-bar {
+	float:none;
+	font-size: 1.2em;
+	padding: 1em;
+	margin:1.6em;
+	align-content: center;
+}
 
+#images {
+	float:left;
+	width:50%
+}
+.wrapper {
+	max-width: 80%;
+}
+
+a:hover {
+	margin-bottom: 1em;
+}
+}
+
+@media only screen and  (min-width: 768px) and (max-width: 1030px)
+
+{
+#logo_top {float:none;}
+#waiting {font-size: 3.3em;}
+
+  .nav-item {
+    width:100%;
+    float:none;
+    background-color: rgb(255,153,0);
+	color: white;
+	display: block;
+	margin-bottom: .05em;
+	line-height: 2em;
+}
+#nav-bar {
+	color:white;
+	margin: .5em;
+}
+.wrapper {max-width: 100%}
+.body {max-width: 100%}
+a {
+	color: white;
+}
+a:hover {
+	background-color: white;
+	color: rgb(255,153,0);
+	line-height: .6em;
+	width: 100%;
+	display: block;
+}
+
+}
+
+@media only screen and  (min-width: 300px) and (max-width: 768px)
+
+{
+.Heading {display: none}
+.story {display: none}
+.story_2column {display: none}
+#three {display: none}
+.background {display:none;}
+#waiting {font-size: 2.3em;}
+#slogan {display: none;}
+.hero div {top: 40%;}
+.hero {height: 500px;}
+.bottomlogo {display: none;}
+#footerwords {display: none;}
+.nav-item {
+    width:100%;
+    float:none;
+    background-color: rgb(255,153,0);
+	color: white;
+	display: block;
+	margin-bottom: .05em;
+	line-height: 2em;
+}
+#nav-bar {
+	color:white;
+}
+.wrapper {max-width: 100%}
+.body {max-width: 100%}
+a {
+	color: white;
+}
+a:hover {
+	background-color: white;
+	color: rgb(255,153,0);
+	line-height: .6em;
+	width: 100%;
+	display: block;
+}
+
+}
