@@ -219,11 +219,17 @@ a:hover {
 .story {width: 50%;}
 .story_2column {width: 100%;}
 #logo_top {float:none;}
+
+.nav-item {
+    width:100%;
+    float:none;
+}
+
 #nav-bar {
 	float:none;
 	font-size: 1.2em;
 	padding: 1em;
-	margin:1.6em;
+	margin:0em;
 	align-content: center;
 }
 
@@ -236,8 +242,11 @@ a:hover {
 }
 
 a:hover {
-	margin-bottom: 1em;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
 }
+
+
 }
 
 @media only screen and  (min-width: 768px) and (max-width: 1030px)
@@ -246,31 +255,17 @@ a:hover {
 #logo_top {float:none;}
 #waiting {font-size: 3.3em;}
 
-  .nav-item {
+.nav-item {
     width:100%;
     float:none;
-    background-color: rgb(255,153,0);
-	color: white;
 	display: block;
-	margin-bottom: .05em;
 	line-height: 2em;
 }
 #nav-bar {
-	color:white;
-	margin: .5em;
 }
 .wrapper {max-width: 100%}
 .body {max-width: 100%}
-a {
-	color: white;
-}
-a:hover {
-	background-color: white;
-	color: rgb(255,153,0);
-	line-height: .6em;
-	width: 100%;
-	display: block;
-}
+
 
 }
 
@@ -295,7 +290,7 @@ a:hover {
 	color: white;
 	display: block;
 	margin-bottom: .05em;
-	line-height: 2em;
+	line-height: 2.5em;
 }
 #nav-bar {
 	color:white;
@@ -308,7 +303,6 @@ a {
 a:hover {
 	background-color: white;
 	color: rgb(255,153,0);
-	line-height: .6em;
 	width: 100%;
 	display: block;
 }
